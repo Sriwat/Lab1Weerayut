@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A201w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017@iOSApplication" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sev-PJ-32P">
+                                <rect key="frame" x="73" y="175" width="174" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="พันเอก อรรณพ ศรีวัฒนาวานิช" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mpb-ch-0lF">
+                                <rect key="frame" x="18" y="261" width="284" height="26.5"/>
+                                <color key="backgroundColor" red="0.26109128361738232" green="0.085818814496152473" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="0.35181975573444757" green="1" blue="0.91968535941660157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.39829788124336851" green="0.55093018233445934" blue="0.58072251081466675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mpb-ch-0lF" firstAttribute="top" secondItem="Sev-PJ-32P" secondAttribute="bottom" constant="65" id="6o7-Ft-eTb"/>
+                            <constraint firstItem="Sev-PJ-32P" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="57" id="YsG-Zl-NWU"/>
+                            <constraint firstItem="Sev-PJ-32P" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ZId-dx-vQQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mpb-ch-0lF" secondAttribute="trailing" constant="2" id="eHQ-9S-bBT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mpb-ch-0lF" secondAttribute="trailing" constant="2" id="h52-UF-7g5"/>
+                            <constraint firstItem="Sev-PJ-32P" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="155" id="ik8-9K-gSV"/>
+                            <constraint firstItem="mpb-ch-0lF" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="2" id="lyQ-Om-Vpg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Sev-PJ-32P" secondAttribute="trailing" constant="57" id="qQe-TA-GZX"/>
+                            <constraint firstItem="mpb-ch-0lF" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="2" id="zMz-C5-b0H"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="218" y="-209"/>
+        </scene>
+    </scenes>
+</document>
